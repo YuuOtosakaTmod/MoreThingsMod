@@ -1,0 +1,6 @@
++4 Removed weapons
++2 New weapons
++2 New items
++16 Unobtainable tools
++8 New crafts
+All of items are localizated for Russian!
