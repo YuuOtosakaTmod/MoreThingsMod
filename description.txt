@@ -1,6 +1,11 @@
-+4 Removed weapons
-+2 New weapons
-+2 New items
-+16 Unobtainable tools
-+8 New crafts
-All of items are localizated for Russian!
+[c/ffb01a:+4 Removed weapons]
+[c/ffb01a:+2 New weapons]
+[c/ffb01a:+2 New items]
+[c/ffb01a:+16 Unobtainable tools]
+[c/ffb01a:+8 New crafts]
+[c/fa3e40:Mod localizated for Russian!]
+
+[c/fa3e40:Versions Info:]
+[c/51DA5F:1.0.7] - [c/64cfff:NanoGun] can now be purchased from Cyborg.
+[c/51DA5F:1.0.6] - Added [c/64cfff:NanoGun] that is [c/fa3e40:currently unreachable]. Updated icon.
+[c/51DA5F:1.0.5] - Added icon.

@@ -26,7 +26,7 @@ namespace MoreThingsMod.Items.Weapons
             item.noMelee = true;
             item.knockBack = 3;
             item.value = 100000;
-            item.rare = 4;
+            item.rare = 5;
             item.UseSound = SoundID.Item11;
             item.autoReuse = true;
             item.shoot = ProjectileID.GreenLaser;

@@ -25,7 +25,7 @@ namespace MoreThingsMod.Items.Weapons
             item.useStyle = 1;
             item.knockBack = 6;
             item.value = 200000;
-            item.rare = 4;
+            item.rare = 5;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
         }

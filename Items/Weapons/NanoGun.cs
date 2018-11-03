@@ -24,22 +24,15 @@ namespace MoreThingsMod.Items.Weapons
 			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
 			item.knockBack = 1;
-			item.value = 10000;
 			item.rare = 2;
+            item.value = 500000;
 			item.UseSound = SoundID.Item11;
 			item.autoReuse = true;
 			item.shoot = 10; //idk why but all the guns in the vanilla source have this
 			item.shootSpeed = 16f;
 			item.useAmmo = AmmoID.Bullet;
 		}
-
-
-		// What if I wanted this gun to have a 38% chance not to consume ammo?
-		/*public override bool ConsumeAmmo(Player player)
-		{
-			return Main.rand.NextFloat() >= .38f;
-		}*/
-
+		
 		// What if I wanted it to work like Uzi, replacing regular bullets with High Velocity Bullets?
 		// Uzi/Molten Fury style: Replace normal Bullets with Highvelocity
 		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
@@ -50,6 +43,27 @@ namespace MoreThingsMod.Items.Weapons
 			}
 			return true; // return true to allow tmodloader to call Projectile.NewProjectile as normal
 		}
+
+		// Help, my gun isn't being held at the handle! Adjust these 2 numbers until it looks right.
+		public override Vector2? HoldoutOffset()
+		{
+			return new Vector2(-10, 0);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// What if I wanted this gun to have a 38% chance not to consume ammo?
+		/*public override bool ConsumeAmmo(Player player)
+		{
+			return Main.rand.NextFloat() >= .38f;
+		}*/
 
 		// What if I wanted it to shoot like a shotgun?
 		// Shotgun style: Multiple Projectiles, Random spread 
@@ -91,12 +105,6 @@ namespace MoreThingsMod.Items.Weapons
 			}
 			return false;
 		}*/
-
-		// Help, my gun isn't being held at the handle! Adjust these 2 numbers until it looks right.
-		public override Vector2? HoldoutOffset()
-		{
-			return new Vector2(-10, 0);
-		}
 
 		// How can I make the shots appear out of the muzzle exactly?
 		// Also, when I do this, how do I prevent shooting through tiles?

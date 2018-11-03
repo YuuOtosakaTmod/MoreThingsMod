@@ -23,6 +23,7 @@ namespace MoreThingsMod.Items.Weapons
 			item.maxStack = 1;
 			item.consumable = false;
             item.shoot = 178;
+            item.rare = 2;
         }
     }
 }

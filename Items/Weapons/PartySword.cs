@@ -23,7 +23,7 @@ namespace MoreThingsMod.Items.Weapons
             item.useStyle = 1;
             item.knockBack = 8;
             item.value = 1000000;
-            item.rare = 4;
+            item.rare = 2;
             item.UseSound = SoundID.Item1;
             item.shoot = 178;
             item.shootSpeed = 25f;

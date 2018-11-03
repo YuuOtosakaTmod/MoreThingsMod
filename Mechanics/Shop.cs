@@ -23,6 +23,13 @@ namespace MoreThingsMod.Mechanics
                     }
 	break;
 
+	case NPCID.Cyborg:
+                    {
+                        shop.item[nextSlot].SetDefaults(mod.ItemType("NanoGun"));
+                        nextSlot++;
+                    }
+	break;
+	
 
 	case NPCID.Merchant:
                     {
