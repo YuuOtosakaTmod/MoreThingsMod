@@ -1,5 +1,5 @@
 author = Yuu Otosaka
-version = 1.0.5
+version = 1.0.6
 displayName = More Things Mod
 hideCode = true
 hideResources = true

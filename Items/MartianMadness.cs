@@ -28,15 +28,5 @@ namespace MoreThingsMod.Items
 			Main.PlaySound(SoundID.Roar, player.position, 0);
 			return true;
         }
-        public override void AddRecipes()
-        {
-            ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.ProximityMineLauncher, 1);
-            recipe.AddIngredient(771, 20);
-            recipe.AddIngredient(ItemID.Nanites, 20);
-			recipe.AddTile(TileID.MythrilAnvil);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
-        }
     }
 }
