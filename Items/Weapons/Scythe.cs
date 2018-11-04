@@ -11,8 +11,7 @@ namespace MoreThingsMod.Items.Weapons
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Scythe");
-			Tooltip.SetDefault("Removed Item."
-				+ "\nGetting confused?");
+			Tooltip.SetDefault("Removed Item.");
 		}
         public override void SetDefaults()
         {
@@ -31,7 +30,8 @@ namespace MoreThingsMod.Items.Weapons
         }
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
         {
-            target.AddBuff(BuffID.Confused, 120);
+            target.AddBuff(BuffID.Slow, 120); 
+            target.AddBuff(BuffID.Venom, 120); 
         }
 		public override void AddRecipes()
 		{

@@ -13,9 +13,12 @@ ItemName.Zapinator=Запинатор
 ItemTooltip.Zapinator=Удаленная вещь.
 ItemName.Icemourne=Ледяная скорбь
 ItemTooltip.Icemourne=Удаленная вещь.
+ItemName.Firemourne=Огненная скорбь
 ItemName.PartySword=Меч Вечеринки
 ItemName.NanoGun=Нано Пушка
 ItemTooltip.NanoGun=Превращает пули в Нано пули.
+ItemName.Explosivo=Взрывоопасный
+ItemTooltip.Explosivo=Превращает пули в Взрывные пули.
 
 ItemName.InfinityConfettiGun=Бесконечная конфетти пушка
 ItemTooltip.InfinityConfettiGun=Веселись!

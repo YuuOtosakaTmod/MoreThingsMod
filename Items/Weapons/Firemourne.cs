@@ -6,12 +6,11 @@ using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class Icemourne: ModItem
+		public class Firemourne: ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Icemourne");
-			Tooltip.SetDefault("Removed item.");
+			DisplayName.SetDefault("Firemourne");
 		}
         public override void SetDefaults()
         {
@@ -30,7 +29,7 @@ namespace MoreThingsMod.Items.Weapons
         }
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
         {
-            target.AddBuff(BuffID.Frostburn, 120);
+            target.AddBuff(BuffID.OnFire, 120);
             target.AddBuff(BuffID.BrokenArmor, 120);
             target.AddBuff(BuffID.Slow, 120);
         }
@@ -41,7 +40,7 @@ namespace MoreThingsMod.Items.Weapons
             recipe.AddIngredient(ItemID.SoulofLight, 25);
             recipe.AddIngredient(null, "SoulofDeath", 15);
 			recipe.AddTile(TileID.MythrilAnvil);
-            recipe.SetResult(null, "Icemourne", 1);
+            recipe.SetResult(null, "Firemourne", 1);
             recipe.AddRecipe();
 		}
     }

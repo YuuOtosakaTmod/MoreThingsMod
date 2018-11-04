@@ -27,6 +27,8 @@ namespace MoreThingsMod.Mechanics
                     {
                         shop.item[nextSlot].SetDefaults(mod.ItemType("NanoGun"));
                         nextSlot++;
+                        shop.item[nextSlot].SetDefaults(mod.ItemType("Explosivo"));
+                        nextSlot++;
                     }
 	break;
 	

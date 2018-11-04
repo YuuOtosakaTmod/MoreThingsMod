@@ -13,14 +13,12 @@ namespace MoreThingsMod.Items
 		{
 			DisplayName.SetDefault("Soul Of Death");
 			Tooltip.SetDefault("'The essence of dark creatures.'");
-			// ticksperframe, frameCount
 			Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(5, 4));
 			ItemID.Sets.AnimatesAsSoul[item.type] = true;
 			ItemID.Sets.ItemIconPulse[item.type] = true;
 			ItemID.Sets.ItemNoGravity[item.type] = true;
 		}
 
-		// TODO -- Velocity Y smaller, post NewItem?
 		public override void SetDefaults()
 		{
 			Item refItem = new Item();
@@ -39,12 +37,6 @@ namespace MoreThingsMod.Items
 			item.velocity = item.velocity + movement;
 			item.velocity = Collision.TileCollision(item.position, item.velocity, item.width, item.height);
 			return true;
-		}
-		
-		// The following 2 methods are purely to show off these 2 hooks. Don't use them in your own code.
-		public override void GrabRange(Player player, ref int grabRange)
-		{
-			grabRange *= 3;
 		}
 
 		public override void PostUpdate()

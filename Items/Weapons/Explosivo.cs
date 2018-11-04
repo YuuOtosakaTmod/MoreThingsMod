@@ -6,26 +6,26 @@ using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class NanoGun: ModItem
+		public class Explosivo: ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Nano Gun");
-			Tooltip.SetDefault("Bullets turn into Nano bullets.");
+			DisplayName.SetDefault("Explosivo");
+			Tooltip.SetDefault("Bullets turn into Explosive bullets.");
 		}
         public override void SetDefaults()
         {
-            item.damage = 75;
+            item.damage = 80;
 			item.ranged = true;
 			item.width = 66;
 			item.height = 22;
-			item.useTime = 5;
-			item.useAnimation = 5;
+			item.useTime = 8;
+			item.useAnimation = 8;
 			item.useStyle = 5;
 			item.noMelee = true;
 			item.knockBack = 1;
 			item.rare = 2;
-            item.value = 1000000;
+            item.value = 950000;
 			item.UseSound = SoundID.Item11;
 			item.autoReuse = true;
 			item.shoot = 10;
@@ -37,7 +37,7 @@ namespace MoreThingsMod.Items.Weapons
 		{
 			if (type == ProjectileID.Bullet)
 			{
-				type = 285;
+				type = 286;
 			}
 			return true;
 		}
