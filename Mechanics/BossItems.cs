@@ -1,11 +1,10 @@
-using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace MoreThingsMod.Mechanics
 {
-	public class BossItems : GlobalItem
+    public class BossItems : GlobalItem
 	{
 		public override void SetDefaults(Item item)
 		{

@@ -16,7 +16,6 @@ namespace MoreThingsMod.Projectiles
 		{
 			projectile.CloneDefaults(ProjectileID.Starfury);
 			aiType = ProjectileID.Starfury;
-            projectile.damage = 30;
 		}
 
 		public override bool PreKill(int timeLeft)

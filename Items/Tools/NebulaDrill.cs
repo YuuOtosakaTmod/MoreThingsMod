@@ -1,5 +1,3 @@
-using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -23,8 +21,8 @@ namespace MoreThingsMod.Items.Tools
 		public override void AddRecipes()
 		{
             ModRecipe recipe = new ModRecipe(mod); 
-            recipe.AddIngredient(3457, 12);
-            recipe.AddIngredient(3467, 10);
+            recipe.AddIngredient(ItemID.FragmentNebula, 12);
+            recipe.AddIngredient(ItemID.LunarBar, 10);
 			recipe.AddTile(412);
             recipe.SetResult(null, "NebulaDrill", 1);
             recipe.AddRecipe();

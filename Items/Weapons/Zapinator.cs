@@ -1,12 +1,9 @@
-using System;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class Zapinator: ModItem
+    public class Zapinator: ModItem
 	{
 		public override void SetStaticDefaults()
 		{
@@ -17,13 +14,13 @@ namespace MoreThingsMod.Items.Weapons
         {
             item.damage = 75;
             item.magic = true;
+            item.noMelee = true;
             item.width = 48;
             item.height = 28;
 			item.mana = 12;  
             item.useTime = 7;
             item.useAnimation = 7;
             item.useStyle = 5;
-            item.noMelee = true;
             item.knockBack = 3;
             item.value = 100000;
             item.rare = 5;
@@ -32,7 +29,7 @@ namespace MoreThingsMod.Items.Weapons
             item.shoot = ProjectileID.GreenLaser;
             item.shootSpeed = 16f;
         }
-				public override void AddRecipes()
+		public override void AddRecipes()
 		{
             ModRecipe recipe = new ModRecipe(mod); 
             recipe.AddIngredient(ItemID.SoulofNight, 20);

@@ -1,12 +1,10 @@
-using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class Icemourne: ModItem
+    public class Icemourne: ModItem
 	{
 		public override void SetStaticDefaults()
 		{

@@ -1,12 +1,9 @@
-using System;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Mechanics
 {
-		public class UnloadedStuff: ModItem
+    public class UnloadedStuff: ModItem
 	{
 		public override void AddRecipes()
 		{

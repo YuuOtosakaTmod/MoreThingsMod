@@ -1,12 +1,9 @@
-using System;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class InfinityConfettiGun: ModItem
+    public class InfinityConfettiGun: ModItem
 	{
 		public override void SetStaticDefaults()
 		{
@@ -22,7 +19,7 @@ namespace MoreThingsMod.Items.Weapons
             item.value = 500000;
 			item.maxStack = 1;
 			item.consumable = false;
-            item.shoot = 178;
+            item.shoot = ProjectileID.ConfettiGun;
             item.rare = 2;
         }
     }

@@ -1,8 +1,5 @@
-using System;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Tools
 {
@@ -25,8 +22,8 @@ namespace MoreThingsMod.Items.Tools
 		public override void AddRecipes()
 		{
             ModRecipe recipe = new ModRecipe(mod); 
-            recipe.AddIngredient(3458, 10);
-            recipe.AddIngredient(3467, 4);
+            recipe.AddIngredient(ItemID.FragmentSolar, 10);
+            recipe.AddIngredient(ItemID.LunarBar, 4);
 			recipe.AddTile(412);
             recipe.SetResult(null, "SolarFlareChainsaw", 1);
             recipe.AddRecipe();

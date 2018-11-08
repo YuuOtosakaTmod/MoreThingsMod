@@ -1,0 +1,12 @@
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\obj\Debug\MoreThingsMod.csprojAssemblyReference.cache
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\obj\Debug\MoreThingsMod.csproj.CoreCompileInputs.cache
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\MoreThingsMod.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\MoreThingsMod.pdb
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\bin\Debug\Terraria.exe
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\obj\Debug\MoreThingsMod.csproj.CopyComplete
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\obj\Debug\MoreThingsMod.dll
+C:\Users\Влад\Documents\My Games\Terraria\ModLoader\Mod Sources\MoreThingsMod\obj\Debug\MoreThingsMod.pdb

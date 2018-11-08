@@ -31,6 +31,14 @@ namespace MoreThingsMod.Items.Weapons
             item.shootSpeed = 16f;
         }
 		
+		public override void MeleeEffects(Player player, Rectangle hitbox)
+		{
+			if (Main.rand.Next(3) == 0)
+			{
+				Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, mod.DustType("SoulSparkle"));
+			}
+		}
+		
 		public override void AddRecipes()
 		{
             ModRecipe recipe = new ModRecipe(mod); 

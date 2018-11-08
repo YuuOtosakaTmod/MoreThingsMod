@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8298EAB6-0586-4BDA-9483-83624B66B13A}</ProjectGuid>
+    <ProjectGuid>{7F8FBFBE-A4C4-4308-AC27-30DAEAB68CDA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MoreThingsMod</RootNamespace>
@@ -33,7 +33,46 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" />
+    <Compile Include="Dusts\SoulSparkle.cs" />
+    <Compile Include="Items\MartianMadness.cs" />
+    <Compile Include="Items\SoulofDeath.cs" />
+    <Compile Include="Items\Tools\NebulaAxe.cs" />
+    <Compile Include="Items\Tools\NebulaChainsaw.cs" />
+    <Compile Include="Items\Tools\NebulaDrill.cs" />
+    <Compile Include="Items\Tools\NebulaHammer.cs" />
+    <Compile Include="Items\Tools\SolarFlareAxe.cs" />
+    <Compile Include="Items\Tools\SolarFlareChainsaw.cs" />
+    <Compile Include="Items\Tools\SolarFlareDrill.cs" />
+    <Compile Include="Items\Tools\SolarFlareHammer.cs" />
+    <Compile Include="Items\Tools\StardustAxe.cs" />
+    <Compile Include="Items\Tools\StardustChainsaw.cs" />
+    <Compile Include="Items\Tools\StardustDrill.cs" />
+    <Compile Include="Items\Tools\StardustHammer.cs" />
+    <Compile Include="Items\Tools\VortexAxe.cs" />
+    <Compile Include="Items\Tools\VortexChainsaw.cs" />
+    <Compile Include="Items\Tools\VortexDrill.cs" />
+    <Compile Include="Items\Tools\VortexHammer.cs" />
+    <Compile Include="Items\Weapons\Explosivo.cs" />
+    <Compile Include="Items\Weapons\Firemourne.cs" />
+    <Compile Include="Items\Weapons\Icemourne.cs" />
+    <Compile Include="Items\Weapons\InfinityConfettiGun.cs" />
+    <Compile Include="Items\Weapons\NanoGun.cs" />
+    <Compile Include="Items\Weapons\PartySword.cs" />
+    <Compile Include="Items\Weapons\Scythe.cs" />
+    <Compile Include="Items\Weapons\SoulScythe.cs" />
+    <Compile Include="Items\Weapons\Venomourne.cs" />
+    <Compile Include="Items\Weapons\Zapinator.cs" />
+    <Compile Include="Mechanics\BossItems.cs" />
+    <Compile Include="Mechanics\Shop.cs" />
+    <Compile Include="Mechanics\UnloadedStuff.cs" />
+    <Compile Include="MoreThingsMod.cs" />
+    <Compile Include="MyPlayer.cs" />
+    <Compile Include="MyWorld.cs" />
+    <Compile Include="NPCs\ModGlobalNPC.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Projectiles\SoulStar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -54,12 +93,11 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="Terraria">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\Pinned Folders\Steam\TmodTerraria\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-   <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
-

@@ -1,5 +1,8 @@
 author = Yuu Otosaka
-version = 1.0.8
+version = 1.0.9
 displayName = More Things Mod
 hideCode = true
 hideResources = true
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true

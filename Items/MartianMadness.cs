@@ -25,7 +25,6 @@ namespace MoreThingsMod.Items
         public override bool UseItem(Player player)
         {
 			NPC.SpawnOnPlayer(player.whoAmI, NPCID.MartianProbe);
-			Main.PlaySound(SoundID.Roar, player.position, 0);
 			return true;
         }
     }

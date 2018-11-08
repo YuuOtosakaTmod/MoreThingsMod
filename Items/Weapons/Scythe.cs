@@ -1,12 +1,10 @@
-using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
 
 namespace MoreThingsMod.Items.Weapons
 {
-		public class Scythe: ModItem
+    public class Scythe: ModItem
 	{
 		public override void SetStaticDefaults()
 		{
@@ -31,7 +29,7 @@ namespace MoreThingsMod.Items.Weapons
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
         {
             target.AddBuff(BuffID.Slow, 120); 
-            target.AddBuff(BuffID.Venom, 120); 
+            target.AddBuff(BuffID.Poisoned, 120); 
         }
 		public override void AddRecipes()
 		{
