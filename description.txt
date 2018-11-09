@@ -6,6 +6,7 @@
 [c/fa3e40:Mod localizated for Russian!]
 
 [c/fa3e40:Versions Info:]
+[c/51DA5F:1.1.0] - Fixed bugs with Suspicious Antenna.
 [c/51DA5F:1.0.9] - Added [c/9900cc:Venomourne]. It can be combined on [c/fa3e40:Tinkerers Workbench].
 [c/51DA5F:1.0.8] - Added [c/fa3e40:Firemourne] and [c/fa3e40:Explosivo]. It can be purchased from [c/2626C4:Cyborg].
 [c/51DA5F:1.0.7] - [c/64cfff:NanoGun] can now be purchased from [c/2626C4:Cyborg].

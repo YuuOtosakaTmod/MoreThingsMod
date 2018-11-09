@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Dusts\SoulSparkle.cs" />
-    <Compile Include="Items\MartianMadness.cs" />
+    <Compile Include="Items\SuspiciousAntenna.cs" />
     <Compile Include="Items\SoulofDeath.cs" />
     <Compile Include="Items\Tools\NebulaAxe.cs" />
     <Compile Include="Items\Tools\NebulaChainsaw.cs" />
